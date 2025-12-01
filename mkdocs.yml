@@ -1,5 +1,6 @@
 site_name: CJK KnowledgeHub
 site_url: ""
+
 theme:
   name: material
   language: en
@@ -11,42 +12,44 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: 00_Home/index.md
-  - Instructions: 00_Home/instructions.md
-  - Structure: 00_Home/structure.md
+  - Site Home: index.md
+
+  - Home:
+      - Welcome: 00_Home/index.md
+      - Instructions: 00_Home/instructions.md
+      - Structure: 00_Home/structure.md
 
   - Featured Work (Portfolio):
-      - "Prompt Engineering Portfolio Hub": 01_Projects/Prompt_Engineering_Portfolio/hub.md
+      - Prompt Engineering Portfolio Hub: 01_Projects/Prompt_Engineering_Portfolio/hub.md
       - Case Studies: 01_Projects/Case_Studies/index.md
-      - "Conversational AI Hub": 01_Projects/Conversational_AI/hub.md
-      - "Portfolio Infrastructure Hub": 01_Projects/Portfolio_Infrastructure/hub.md
+      - Conversational AI Hub: 01_Projects/Conversational_AI/hub.md
+      - Portfolio Infrastructure Hub: 01_Projects/Portfolio_Infrastructure/hub.md
 
   - Io Persona (Flagship Project):
       - Overview: 02_IO_Persona/io_overview.md
-
-      - Phase I — IO-I (Prototype):
-          - Blueprint v1.0: 02_IO_Persona/IO-I/v1.0/blueprint.md
-          - Blueprint v1.1: 02_IO_Persona/IO-I/v1.1/blueprint.md
-          - Blueprint v1.2: 02_IO_Persona/IO-I/v1.2/blueprint.md
-
-      - Phase II — IO-II (Operational Persona):
-          - Blueprint v1.1: 02_IO_Persona/IO-II/v1.1/blueprint.md
-          - Blueprint v1.2: 02_IO_Persona/IO-II/v1.2/blueprint.md
-          - Blueprint v1.4 (Dev): 02_IO_Persona/IO-II/v1.4_dev/blueprint.md
+      - IO-I:
+          - Notes: 02_IO_Persona/IO-I/notes.md
+          - v1.0 Blueprint: 02_IO_Persona/IO-I/v1.0/blueprint.md
+          - v1.1 Blueprint: 02_IO_Persona/IO-I/v1.1/blueprint.md
+          - v1.2 Blueprint: 02_IO_Persona/IO-I/v1.2/blueprint.md
+      - IO-II:
           - Notes: 02_IO_Persona/IO-II/notes.md
-
-      - Phase III — IO-III (Multi-Agent System):
+          - v1.1 Blueprint: 02_IO_Persona/IO-II/v1.1/blueprint.md
+          - v1.2 Blueprint: 02_IO_Persona/IO-II/v1.2/blueprint.md
+          - v1.3 Blueprint: 02_IO_Persona/IO-II/v1.3/blueprint.md
+          - v1.4 Dev Blueprint: 02_IO_Persona/IO-II/v1.4_dev/blueprint.md
+      - IO-III:
           - Roadmap: 02_IO_Persona/IO-III/roadmap.md
-          - Concepts v0.1 (Blueprint): 02_IO_Persona/IO-III/v0.1_concepts/blueprint.md
-
-      - Experiments Scratchpad: 02_IO_Persona/experiments/scratchpad.md
+          - v0.1 Concepts Blueprint: 02_IO_Persona/IO-III/v0.1_concepts/blueprint.md
+      - Experiments:
+          - Scratchpad: 02_IO_Persona/experiments/scratchpad.md
 
   - Workflows:
+      - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
+      - Creative: 03_Workflows/Creative/index.md
+      - Evaluation: 03_Workflows/Evaluation/index.md
       - Prompting: 03_Workflows/Prompting/index.md
       - Research: 03_Workflows/Research/index.md
-      - Evaluation: 03_Workflows/Evaluation/index.md
-      - Creative: 03_Workflows/Creative/index.md
-      - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
 
   - Coursework:
       - Certificates: 04_Coursework/Certificates/index.md

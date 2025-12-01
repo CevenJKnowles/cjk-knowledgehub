@@ -1,0 +1,10 @@
+# MkDocs build output
+site/
+
+# Python cruft
+__pycache__/
+*.pyc
+
+# OS/editor cruft
+.DS_Store
+*~

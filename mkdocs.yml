@@ -1,0 +1,83 @@
+site_name: CJK KnowledgeHub
+site_author: Ceven Jupiter Knowles
+site_description: "Integrated portfolio, research wiki, and documentation hub for Prompt Engineering, AI Engineering, and the IO Persona system."
+repo_url: https://github.com/CevenJKnowles/cjk-knowledgehub
+repo_name: cjk-knowledgehub
+
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Overview: 00_Home/index.md
+  - Structure: 00_Home/structure.md
+  - Instructions: 00_Home/instructions.md
+
+  - Projects:
+      - Case Studies: 01_Projects/Case_Studies/index.md
+      - Prompt Engineering Portfolio: 01_Projects/Prompt_Engineering_Portfolio/hub.md
+      - Conversational AI: 01_Projects/Conversational_AI/hub.md
+      - Portfolio Infrastructure: 01_Projects/Portfolio_Infrastructure/hub.md
+
+  - IO Persona:
+      - Overview: 02_IO_Persona/io_overview.md
+
+  - Workflows:
+      - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
+      - Creative: 03_Workflows/Creative/index.md
+      - Evaluation: 03_Workflows/Evaluation/index.md
+      - Prompting: 03_Workflows/Prompting/index.md
+      - Research: 03_Workflows/Research/index.md
+
+  - Coursework:
+      - Certificates: 04_Coursework/Certificates/index.md
+      - Google IT Automation with Python: 04_Coursework/Google_IT_Automation_with_Python/index.md
+      - IBM Generative AI Engineering: 04_Coursework/IBM_Generative_AI_Engineering_Professional_Certificate/index.md
+      - Vanderbilt Prompt Engineering: 04_Coursework/Vanderbilt_Prompt_Engineering_Specialization/index.md
+
+  - Knowledge Base:
+      - AI Concepts: 05_Knowledge_Base/AI_Concepts/index.md
+      - Glossary: 05_Knowledge_Base/Glossary.md
+      - Prompt Patterns: 05_Knowledge_Base/Prompt_PatternS/index.md
+      - Reading Notes: 05_Knowledge_Base/Reading_Notes/index.md
+      - Safety & Ethics: 05_Knowledge_Base/Safety_Ethics/index.md
+
+  - Tools:
+      - GitHub: 06_Tools/GitHub.md
+      - JupyterLab: 06_Tools/JupyterLab.md
+      - Linux Notes: 06_Tools/Linux_Notes.md
+      - VS Code: 06_Tools/VS_Code.md
+      - Zettlr: 06_Tools/Zettlr.md
+      - marimo: 06_Tools/marimo.md
+      - Nextcloud: 06_Tools/Nextcloud.md
+
+  - Daily Notes:
+      - 2025-12-02: 08_Daily_Notes/2025-12-02.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CevenJKnowles

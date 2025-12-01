@@ -12,37 +12,19 @@ theme:
     - content.code.copy
 
 nav:
-  - Site Home: index.md
-
   - Home:
-      - Welcome: 00_Home/index.md
+      - Overview: 00_Home/index.md
       - Instructions: 00_Home/instructions.md
       - Structure: 00_Home/structure.md
 
   - Featured Work (Portfolio):
-      - Prompt Engineering Portfolio Hub: 01_Projects/Prompt_Engineering_Portfolio/hub.md
+      - "Prompt Engineering Portfolio Hub": 01_Projects/Prompt_Engineering_Portfolio/hub.md
       - Case Studies: 01_Projects/Case_Studies/index.md
-      - Conversational AI Hub: 01_Projects/Conversational_AI/hub.md
-      - Portfolio Infrastructure Hub: 01_Projects/Portfolio_Infrastructure/hub.md
+      - "Conversational AI Hub": 01_Projects/Conversational_AI/hub.md
+      - "Portfolio Infrastructure Hub": 01_Projects/Portfolio_Infrastructure/hub.md
 
   - Io Persona (Flagship Project):
       - Overview: 02_IO_Persona/io_overview.md
-      - IO-I:
-          - Notes: 02_IO_Persona/IO-I/notes.md
-          - v1.0 Blueprint: 02_IO_Persona/IO-I/v1.0/blueprint.md
-          - v1.1 Blueprint: 02_IO_Persona/IO-I/v1.1/blueprint.md
-          - v1.2 Blueprint: 02_IO_Persona/IO-I/v1.2/blueprint.md
-      - IO-II:
-          - Notes: 02_IO_Persona/IO-II/notes.md
-          - v1.1 Blueprint: 02_IO_Persona/IO-II/v1.1/blueprint.md
-          - v1.2 Blueprint: 02_IO_Persona/IO-II/v1.2/blueprint.md
-          - v1.3 Blueprint: 02_IO_Persona/IO-II/v1.3/blueprint.md
-          - v1.4 Dev Blueprint: 02_IO_Persona/IO-II/v1.4_dev/blueprint.md
-      - IO-III:
-          - Roadmap: 02_IO_Persona/IO-III/roadmap.md
-          - v0.1 Concepts Blueprint: 02_IO_Persona/IO-III/v0.1_concepts/blueprint.md
-      - Experiments:
-          - Scratchpad: 02_IO_Persona/experiments/scratchpad.md
 
   - Workflows:
       - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
@@ -51,26 +33,8 @@ nav:
       - Prompting: 03_Workflows/Prompting/index.md
       - Research: 03_Workflows/Research/index.md
 
-  - Coursework:
-      - Certificates: 04_Coursework/Certificates/index.md
-      - Google IT Automation with Python: 04_Coursework/Google_IT_Automation_with_Python/index.md
-      - IBM Generative AI Engineering: 04_Coursework/IBM_Generative_AI_Engineering_Professional_Certificate/index.md
-      - Vanderbilt Prompt Engineering: 04_Coursework/Vanderbilt_Prompt_Engineering_Specialization/index.md
-
-  - Knowledge Base:
-      - AI Concepts: 05_Knowledge_Base/AI_Concepts/index.md
-      - Glossary: 05_Knowledge_Base/Glossary.md
-      - Prompt Patterns: 05_Knowledge_Base/Prompt_Patterns/index.md
-      - Reading Notes: 05_Knowledge_Base/Reading_Notes/index.md
-      - Safety & Ethics: 05_Knowledge_Base/Safety_Ethics/index.md
 
   - Tools:
-      - GitHub: 06_Tools/GitHub.md
-      - JupyterLab: 06_Tools/JupyterLab.md
-      - Linux Notes: 06_Tools/Linux_Notes.md
-      - VS Code: 06_Tools/VS_Code.md
-      - Zettlr: 06_Tools/Zettlr.md
-      - marimo: 06_Tools/marimo.md
       - Nextcloud: 06_Tools/Nextcloud.md
 
   - Tags:
@@ -78,6 +42,7 @@ nav:
 
   - Daily Notes:
       - 2025-12-02: 08_Daily_Notes/2025-12-02.md
+
 
 markdown_extensions:
   - toc:
@@ -95,4 +60,3 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/CevenJKnowles
-

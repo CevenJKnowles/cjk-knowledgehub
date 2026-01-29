@@ -43,3 +43,43 @@ Serve the Hub locally with hot reload:
 ```bash
 mkdocs serve
 
+
+## GitHub Pages (CI)
+
+- Workflow file: `.github/workflows/deploy-mkdocs.yml`
+- Trigger: pushes to the `main` branch (change branch in the workflow if your default is different).
+- Requirements: `requirements.txt` must list `mkdocs`, `mkdocs-material`, and any MkDocs plugins referenced in `mkdocs.yml`.
+
+How it works
+- On push to `main` the Actions workflow builds the site with `mkdocs build` and publishes `site/` to the `gh-pages` branch.
+- The workflow requires Actions write permissions (configured in the workflow or in Settings → Actions → Workflow permissions).
+
+Quick local steps
+1. Create and activate venv:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. Install deps and serve locally:
+   ```bash
+   pip install -r requirements.txt
+   mkdocs serve
+   ```
+
+3. Build static site:
+   ```bash
+   mkdocs build
+   ls -la site
+   ```
+
+Force a redeploy (no content change)
+```bash
+git commit --allow-empty -m "ci: trigger pages redeploy"
+git push origin main
+```
+
+Troubleshooting
+- Check Actions → latest run → expand logs for the failed step (copy the error lines).
+- Ensure `requirements.txt` includes any MkDocs plugins referenced in `mkdocs.yml`.
+- If the workflow cannot push, verify repo Actions permissions and branch protection settings for `gh-pages`.

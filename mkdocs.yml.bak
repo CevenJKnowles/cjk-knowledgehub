@@ -1,0 +1,62 @@
+site_name: CJK KnowledgeHub
+site_url: ""
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+
+nav:
+  - Home:
+      - Overview: 00_Home/index.md
+      - Instructions: 00_Home/instructions.md
+      - Structure: 00_Home/structure.md
+
+  - Featured Work (Portfolio):
+      - "Prompt Engineering Portfolio Hub": 01_Projects/Prompt_Engineering_Portfolio/hub.md
+      - Case Studies: 01_Projects/Case_Studies/index.md
+      - "Conversational AI Hub": 01_Projects/Conversational_AI/hub.md
+      - "Portfolio Infrastructure Hub": 01_Projects/Portfolio_Infrastructure/hub.md
+
+  - Io Persona (Flagship Project):
+      - Overview: 02_IO_Persona/io_overview.md
+
+  - Workflows:
+      - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
+      - Creative: 03_Workflows/Creative/index.md
+      - Evaluation: 03_Workflows/Evaluation/index.md
+      - Prompting: 03_Workflows/Prompting/index.md
+      - Research: 03_Workflows/Research/index.md
+
+
+  - Tools:
+      - Nextcloud: 06_Tools/Nextcloud.md
+
+  - Tags:
+      - Tag Index: 07_Tags/tag_index.md
+
+  - Daily Notes:
+      - 2025-12-02: 08_Daily_Notes/2025-12-02.md
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CevenJKnowles

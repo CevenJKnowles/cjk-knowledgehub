@@ -1,10 +1,10 @@
 ---
-title: "CJK KnowledgeHub"
+title: "Profile"
 type: "profile"
 domain: "profile"
 status: "evolving"
-id: "CJK-HOME"
-summary: "Phase 4 scaffold entry point."
+id: "CJK-PROFILE-INDEX"
+summary: "Professional profile landing page (stub)."
 tags: []
 created: 2026-02-11
 updated: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# CJK KnowledgeHub
+# Profile
 
 TODO

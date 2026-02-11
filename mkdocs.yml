@@ -1,62 +1,37 @@
 site_name: CJK KnowledgeHub
-site_url: ""
-
-theme:
-  name: material
-  language: en
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - content.code.annotate
-    - content.code.copy
+docs_dir: docs
+site_dir: site
 
 nav:
-  - Home:
-      - Overview: 00_Home/index.md
-      - Instructions: 00_Home/instructions.md
-      - Structure: 00_Home/structure.md
-
-  - Featured Work (Portfolio):
-      - "Prompt Engineering Portfolio Hub": 01_Projects/Prompt_Engineering_Portfolio/hub.md
-      - Case Studies: 01_Projects/Case_Studies/index.md
-      - "Conversational AI Hub": 01_Projects/Conversational_AI/hub.md
-      - "Portfolio Infrastructure Hub": 01_Projects/Portfolio_Infrastructure/hub.md
-
-  - Io Persona (Flagship Project):
-      - Overview: 02_IO_Persona/io_overview.md
-
+  - Home: index.md
+  - Profile: profile/index.md
+  - Prompt Engineering:
+      - prompt-engineering/index.md
+      - FlowCore System:
+          - Overview: prompt-engineering/flowcore-system/00-overview.md
+          - Problem & Context: prompt-engineering/flowcore-system/01-problem-context.md
+          - Prompt Architecture: prompt-engineering/flowcore-system/02-prompt-architecture.md
+          - Evaluation Summary: prompt-engineering/flowcore-system/03-evaluation-summary.md
+          - Model Routing Summary: prompt-engineering/flowcore-system/04-model-routing-summary.md
+          - Results & Learnings: prompt-engineering/flowcore-system/05-results-and-learnings.md
   - Workflows:
-      - Code Notebooks: 03_Workflows/Code_Notebooks/index.md
-      - Creative: 03_Workflows/Creative/index.md
-      - Evaluation: 03_Workflows/Evaluation/index.md
-      - Prompting: 03_Workflows/Prompting/index.md
-      - Research: 03_Workflows/Research/index.md
-
-
-  - Tools:
-      - Nextcloud: 06_Tools/Nextcloud.md
-
-  - Tags:
-      - Tag Index: 07_Tags/tag_index.md
-
-  - Daily Notes:
-      - 2025-12-02: 08_Daily_Notes/2025-12-02.md
-
-
-markdown_extensions:
-  - toc:
-      permalink: true
-  - tables
-  - fenced_code
-  - codehilite
-  - admonition
-  - footnotes
-  - attr_list
-  - md_in_html
-  - def_list
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/CevenJKnowles
+      - workflows/index.md
+      - FlowCore Orchestration:
+          - Overview: workflows/flowcore-orchestration/00-overview.md
+          - Workflow Steps: workflows/flowcore-orchestration/01-workflow-steps.md
+          - Failure Recovery: workflows/flowcore-orchestration/02-failure-recovery.md
+          - Routing Logic: workflows/flowcore-orchestration/03-routing-logic.md
+  - Documentation:
+      - documentation/index.md
+      - FlowCore Governance:
+          - Overview: documentation/flowcore-governance/00-overview.md
+          - Evaluation Rubric: documentation/flowcore-governance/01-evaluation-rubric.md
+          - Failure Taxonomy: documentation/flowcore-governance/02-failure-taxonomy.md
+          - Safety & Escalation: documentation/flowcore-governance/03-safety-and-escalation.md
+          - ADRs:
+              - ADR-001: documentation/flowcore-governance/adr/adr-001-scope-and-non-goals.md
+              - ADR-002: documentation/flowcore-governance/adr/adr-002-evaluation-axes.md
+              - ADR-003: documentation/flowcore-governance/adr/adr-003-model-routing-policy.md
+              - ADR-004: documentation/flowcore-governance/adr/adr-004-safety-escalation-policy.md
+  - Career Trajectory: career-trajectory/index.md
+  - Appendix: appendix/index.md

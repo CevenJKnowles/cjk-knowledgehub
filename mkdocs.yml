@@ -36,4 +36,6 @@ nav:
   - Career Trajectory: career-trajectory/index.md
   - Appendix:
       - Overview: appendix/index.md
-      - Vective: appendix/vective/index.md
+      - Vective:
+          - Overview: appendix/vective/index.md
+          - Source Pack: appendix/vective/source-pack/index.md

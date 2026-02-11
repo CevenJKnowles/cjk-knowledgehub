@@ -1,9 +1,9 @@
 ---
-title: "FlowCore System — Evaluation Summary"
+title: "Vective System — Evaluation Summary"
 type: "case-study"
 domain: "prompt-engineering"
 status: "evolving"
-id: "FLOWCORE-PE-030"
+id: "VECTIVE-PE-030"
 summary: "Summarizes evaluation approach and headline results."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore System — Evaluation Summary
+# Vective System — Evaluation Summary
 
 TODO

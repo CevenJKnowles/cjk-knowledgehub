@@ -1,9 +1,9 @@
 ---
-title: "FlowCore System — Model Routing Summary"
+title: "Vective System — Model Routing Summary"
 type: "case-study"
 domain: "prompt-engineering"
 status: "evolving"
-id: "FLOWCORE-PE-040"
+id: "VECTIVE-PE-040"
 summary: "Explains routing logic across ChatGPT, Claude, and local LLM."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore System — Model Routing Summary
+# Vective System — Model Routing Summary
 
 TODO

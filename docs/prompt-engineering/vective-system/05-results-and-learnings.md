@@ -1,10 +1,10 @@
 ---
-title: "FlowCore System — Overview"
+title: "Vective System — Results & Learnings"
 type: "case-study"
 domain: "prompt-engineering"
 status: "evolving"
-id: "FLOWCORE-PE-000"
-summary: "Flagship system overview and navigation."
+id: "VECTIVE-PE-050"
+summary: "Key learnings, limitations, and next improvements."
 tags: []
 created: 2026-02-11
 updated: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore System — Overview
+# Vective System — Results & Learnings
 
 TODO

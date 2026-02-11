@@ -7,7 +7,7 @@ nav:
   - Profile: profile/index.md
   - Prompt Engineering:
       - prompt-engineering/index.md
-      - FlowCore System:
+      - Vective System:
           - Overview: prompt-engineering/flowcore-system/00-overview.md
           - Problem & Context: prompt-engineering/flowcore-system/01-problem-context.md
           - Prompt Architecture: prompt-engineering/flowcore-system/02-prompt-architecture.md
@@ -16,14 +16,14 @@ nav:
           - Results & Learnings: prompt-engineering/flowcore-system/05-results-and-learnings.md
   - Workflows:
       - workflows/index.md
-      - FlowCore Orchestration:
+      - Vective Orchestration:
           - Overview: workflows/flowcore-orchestration/00-overview.md
           - Workflow Steps: workflows/flowcore-orchestration/01-workflow-steps.md
           - Failure Recovery: workflows/flowcore-orchestration/02-failure-recovery.md
           - Routing Logic: workflows/flowcore-orchestration/03-routing-logic.md
   - Documentation:
       - documentation/index.md
-      - FlowCore Governance:
+      - Vective Governance:
           - Overview: documentation/flowcore-governance/00-overview.md
           - Evaluation Rubric: documentation/flowcore-governance/01-evaluation-rubric.md
           - Failure Taxonomy: documentation/flowcore-governance/02-failure-taxonomy.md

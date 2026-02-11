@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Governance — Evaluation Rubric"
+title: "Vective Governance — Evaluation Rubric"
 type: "documentation"
 domain: "documentation"
 status: "evolving"
-id: "FLOWCORE-DOC-010"
+id: "VECTIVE-DOC-010"
 summary: "Defines evaluation axes and scoring approach (stub)."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Governance — Evaluation Rubric
+# Vective Governance — Evaluation Rubric
 
 TODO

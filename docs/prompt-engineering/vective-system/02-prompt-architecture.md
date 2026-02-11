@@ -1,9 +1,9 @@
 ---
-title: "FlowCore System — Prompt Architecture"
+title: "Vective System — Prompt Architecture"
 type: "case-study"
 domain: "prompt-engineering"
 status: "evolving"
-id: "FLOWCORE-PE-020"
+id: "VECTIVE-PE-020"
 summary: "Explains prompt components and orchestration roles."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore System — Prompt Architecture
+# Vective System — Prompt Architecture
 
 TODO

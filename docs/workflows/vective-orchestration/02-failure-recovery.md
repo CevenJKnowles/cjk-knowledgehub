@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Orchestration — Failure Recovery"
+title: "Vective Orchestration — Failure Recovery"
 type: "workflow"
 domain: "workflows"
 status: "evolving"
-id: "FLOWCORE-WF-020"
+id: "VECTIVE-WF-020"
 summary: "Failure modes and recovery strategy (stub)."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Orchestration — Failure Recovery
+# Vective Orchestration — Failure Recovery
 
 TODO

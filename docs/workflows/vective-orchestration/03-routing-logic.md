@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Orchestration — Routing Logic"
+title: "Vective Orchestration — Routing Logic"
 type: "workflow"
 domain: "workflows"
 status: "evolving"
-id: "FLOWCORE-WF-030"
+id: "VECTIVE-WF-030"
 summary: "Routing criteria and fallbacks (stub)."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Orchestration — Routing Logic
+# Vective Orchestration — Routing Logic
 
 TODO

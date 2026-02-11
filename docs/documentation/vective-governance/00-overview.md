@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Governance — Overview"
+title: "Vective Governance — Overview"
 type: "documentation"
 domain: "documentation"
 status: "evolving"
-id: "FLOWCORE-DOC-000"
+id: "VECTIVE-DOC-000"
 summary: "Governance and documentation artifacts overview."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Governance — Overview
+# Vective Governance — Overview
 
 TODO

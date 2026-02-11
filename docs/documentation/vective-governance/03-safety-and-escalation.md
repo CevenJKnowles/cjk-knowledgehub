@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Governance — Safety & Escalation"
+title: "Vective Governance — Safety & Escalation"
 type: "documentation"
 domain: "documentation"
 status: "evolving"
-id: "FLOWCORE-DOC-030"
+id: "VECTIVE-DOC-030"
 summary: "Safety boundaries, ambiguity handling, escalation logic (stub)."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Governance — Safety & Escalation
+# Vective Governance — Safety & Escalation
 
 TODO

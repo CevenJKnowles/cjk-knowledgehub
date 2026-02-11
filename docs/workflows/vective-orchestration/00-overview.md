@@ -1,9 +1,9 @@
 ---
-title: "FlowCore Orchestration — Overview"
+title: "Vective Orchestration — Overview"
 type: "workflow"
 domain: "workflows"
 status: "evolving"
-id: "FLOWCORE-WF-000"
+id: "VECTIVE-WF-000"
 summary: "Workflow-oriented deep dive of the orchestration system."
 tags: []
 created: 2026-02-11
@@ -13,6 +13,6 @@ evidence: []
 related: []
 ---
 
-# FlowCore Orchestration — Overview
+# Vective Orchestration — Overview
 
 TODO

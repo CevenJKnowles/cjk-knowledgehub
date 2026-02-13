@@ -12,7 +12,7 @@ tags: [profile, positioning, ai-workflows]
 
 # Profile
 
-My current focus is AI workflows and prompt systems, shaped by a long-standing fascination with evolving technologies, computer science, and the genuine satisfaction of solving difficult problems.
+My current focus is AI workflows and prompt systems, shaped by a long-standing fascination with evolving technologies, computer science, and the feeling of genuine delight in solving difficult problems.
 
 For more than two decades I worked as an interdisciplinary designer, delivering complex projects across teams and production environments. That experience taught me to define intentions clearly, work within constraints, understand dependencies, communicate effectively, keep decisions transparent, and stay curious.
 

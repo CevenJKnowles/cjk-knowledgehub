@@ -1,18 +1,13 @@
 ---
-title: "CJK KnowledgeHub"
-type: "profile"
-domain: "profile"
-status: "evolving"
-id: "CJK-HOME"
-summary: "Phase 4 scaffold entry point."
-tags: []
-created: 2026-02-11
-updated: 2026-02-11
-maturity: "draft"
-evidence: []
-related: []
+id: KH-HOME
+title: Home
+type: home
+status: draft
+version: "0.1"
+created: 2026-03-20
+updated: 2026-03-20
 ---
 
-# CJK KnowledgeHub
+# Ceven Jupiter Knowles
 
-TODO
+TODO: Home page content.

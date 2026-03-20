@@ -1,41 +1,90 @@
 site_name: CJK KnowledgeHub
+site_url: https://cevenjknowles.github.io/cjk-knowledgehub/
+site_description: AI Systems Design | Governed LLM Infrastructure | Workflow Architecture
+site_author: Ceven Jupiter Knowles
+
 docs_dir: docs
 site_dir: site
 
+repo_url: https://github.com/CevenJKnowles/cjk-knowledgehub
+repo_name: CevenJKnowles/cjk-knowledgehub
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+
 nav:
   - Home: index.md
-  - Profile: profile/index.md
-  - Prompt Engineering:
-      - prompt-engineering/index.md
-      - Vective System:
-          - Overview: prompt-engineering/vective-system/00-overview.md
-          - Problem & Context: prompt-engineering/vective-system/01-problem-context.md
-          - Prompt Architecture: prompt-engineering/vective-system/02-prompt-architecture.md
-          - Evaluation Summary: prompt-engineering/vective-system/03-evaluation-summary.md
-          - Model Routing Summary: prompt-engineering/vective-system/04-model-routing-summary.md
-          - Results & Learnings: prompt-engineering/vective-system/05-results-and-learnings.md
-  - Workflows:
-      - workflows/index.md
-      - Vective Orchestration:
-          - Overview: workflows/vective-orchestration/00-overview.md
-          - Workflow Steps: workflows/vective-orchestration/01-workflow-steps.md
-          - Failure Recovery: workflows/vective-orchestration/02-failure-recovery.md
-          - Routing Logic: workflows/vective-orchestration/03-routing-logic.md
-  - Documentation:
-      - documentation/index.md
-      - Vective Governance:
-          - Overview: documentation/vective-governance/00-overview.md
-          - Evaluation Rubric: documentation/vective-governance/01-evaluation-rubric.md
-          - Failure Taxonomy: documentation/vective-governance/02-failure-taxonomy.md
-          - Safety & Escalation: documentation/vective-governance/03-safety-and-escalation.md
-          - ADRs:
-              - ADR-001: documentation/vective-governance/adr/adr-001-scope-and-non-goals.md
-              - ADR-002: documentation/vective-governance/adr/adr-002-evaluation-axes.md
-              - ADR-003: documentation/vective-governance/adr/adr-003-model-routing-policy.md
-              - ADR-004: documentation/vective-governance/adr/adr-004-safety-escalation-policy.md
-  - Career Trajectory: career-trajectory/index.md
-  - Appendix:
-      - Overview: appendix/index.md
-      - Vective:
-          - Overview: appendix/vective/index.md
-          - Source Pack: appendix/vective/source-pack/index.md
+
+  - Work:
+      - Overview: work/index.md
+      - Projects:
+          - Overview: work/projects/index.md
+          - IO-III Architecture: work/projects/io-iii-architecture.md
+          - Prompt Pattern Library: work/projects/prompt-pattern-library.md
+          - KnowledgeHub Governance: work/projects/knowledgehub-governance.md
+          - Agentic Applications: work/projects/agentic-applications.md
+      - Professional History:
+          - Overview: work/history/index.md
+          - Simpleshow GmbH: work/history/simpleshow.md
+          - Interdisciplinary Design: work/history/interdisciplinary-design.md
+          - LUDWIG Bar / Gallery / Venue: work/history/ludwig.md
+      - Contributions:
+          - Overview: work/contributions/index.md
+
+  - Method:
+      - Overview: method/index.md
+      - Architecture Decision Records: method/architecture-decision-records.md
+      - Design Principles: method/design-principles.md
+      - Testing and Documentation: method/testing-and-documentation.md
+
+  - Credentials:
+      - Overview: credentials/index.md
+      - AI Engineering and Governance: credentials/ai-engineering-governance.md
+      - Statistical and Mathematical Foundations: credentials/statistical-mathematical.md
+      - Python and Development Tooling: credentials/python-development.md
+
+  - About: about/index.md
+
+  - Legacy: legacy/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CevenJKnowles
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/cevenknowles/
+    - icon: fontawesome/brands/behance
+      link: https://www.behance.net/cevenknowles
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js

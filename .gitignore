@@ -8,3 +8,6 @@ __pycache__/
 # OS/editor cruft
 .DS_Store
 *~
+node_modules/
+package-lock.json
+package.json

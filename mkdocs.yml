@@ -12,6 +12,24 @@ repo_name: CevenJKnowles/cjk-knowledgehub
 theme:
   name: material
   language: en
+  logo: assets/images/logo-512.png
+  favicon: assets/images/logo-32.png
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Barlow
+    code: Hack
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,33 +41,29 @@ theme:
 nav:
   - Home: index.md
 
-  - Work:
-      - Overview: work/index.md
-      - Projects:
-          - Overview: work/projects/index.md
-          - IO-III Architecture: work/projects/io-iii-architecture.md
-          - Prompt Pattern Library: work/projects/prompt-pattern-library.md
-          - KnowledgeHub Governance: work/projects/knowledgehub-governance.md
-          - Agentic Applications: work/projects/agentic-applications.md
-      - Professional History:
-          - Overview: work/history/index.md
-          - Simpleshow GmbH: work/history/simpleshow.md
-          - Interdisciplinary Design: work/history/interdisciplinary-design.md
-          - LUDWIG Bar / Gallery / Venue: work/history/ludwig.md
-      - Contributions:
-          - Overview: work/contributions/index.md
+  - Projects:
+      - Overview: projects/index.md
+      - IO-III Architecture: projects/io-iii-architecture.md
+      - Prompt Pattern Library: projects/prompt-pattern-library.md
+      - KnowledgeHub Governance: projects/knowledgehub-governance.md
+      - Agentic Applications: projects/agentic-applications.md
+
+  - Experience:
+      - Overview: experience/index.md
+      - Simpleshow GmbH: experience/simpleshow.md
+      - Interdisciplinary Design: experience/interdisciplinary-design.md
+      - LUDWIG Bar / Gallery / Venue: experience/ludwig.md
 
   - Method:
       - Overview: method/index.md
+      - How I Work: method/how-i-work.md
       - Architecture Decision Records: method/architecture-decision-records.md
-      - Design Principles: method/design-principles.md
-      - Testing and Documentation: method/testing-and-documentation.md
+      - Tools and Environment: method/tools-and-environment.md
 
   - Credentials:
       - Overview: credentials/index.md
       - AI Engineering and Governance: credentials/ai-engineering-governance.md
       - Statistical and Mathematical Foundations: credentials/statistical-mathematical.md
-      - Python and Development Tooling: credentials/python-development.md
 
   - About: about/index.md
 
@@ -83,8 +97,17 @@ extra:
       link: https://github.com/CevenJKnowles
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/cevenknowles/
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/cevenknowles.bsky.social
     - icon: fontawesome/brands/behance
       link: https://www.behance.net/cevenknowles
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/cevenknowles
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/31796358/ceven-jupiter-knowles
+
+extra_css:
+  - assets/stylesheets/custom.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js

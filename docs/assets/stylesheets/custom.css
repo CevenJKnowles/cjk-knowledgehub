@@ -1,0 +1,352 @@
+/* =============================================================================
+   CJK KnowledgeHub — custom.css
+   Visual design implementation per locked decisions VIS-001 through VIS-008
+   Last updated: 2026-03-20
+   ============================================================================= */
+
+
+/* -----------------------------------------------------------------------------
+   1. COOPER HEWITT — @font-face declarations (self-hosted)
+   Font files must be present at docs/assets/fonts/cooperhewitt/
+   Download from: https://github.com/cooperhewitt/cooperhewitt-typeface
+   ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-400-normal.woff2") format("woff2"),
+       url("../fonts/cooperhewitt/cooper-hewitt-latin-400-normal.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-500-normal.woff2") format("woff2"),
+       url("../fonts/cooperhewitt/cooper-hewitt-latin-500-normal.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-700-normal.woff2") format("woff2"),
+       url("../fonts/cooperhewitt/cooper-hewitt-latin-700-normal.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-800-normal.woff2") format("woff2"),
+       url("../fonts/cooperhewitt/cooper-hewitt-latin-800-normal.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* -----------------------------------------------------------------------------
+   2. DARK MODE — slate scheme (default)
+   VIS-001: Dark mode default
+   VIS-003: Full colour palette
+   ----------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] {
+
+  /* backgrounds */
+  --md-default-bg-color:          #010f1d;
+  --md-default-bg-color--light:   #0d2035;
+  --md-default-bg-color--lighter: #152840;
+  --md-default-bg-color--lightest: #1e3450;
+
+  /* text */
+  --md-default-fg-color:          #efefef;
+  --md-default-fg-color--light:   #a5a9b4;
+  --md-default-fg-color--lighter: #6b6f7a;
+  --md-default-fg-color--lightest: #414247;
+
+  /* primary — nav bar */
+  --md-primary-fg-color:          #010f1d;
+  --md-primary-fg-color--light:   #0d2035;
+  --md-primary-fg-color--dark:    #000a14;
+  --md-primary-bg-color:          #efefef;
+  --md-primary-bg-color--light:   #a5a9b4;
+
+  /* accent — interactive elements */
+  --md-accent-fg-color:           #2979FF;
+  --md-accent-fg-color--transparent: rgba(41, 121, 255, 0.1);
+  --md-accent-bg-color:           #010f1d;
+
+  /* typeset */
+  --md-typeset-color:             #efefef;
+  --md-typeset-a-color:           #2979FF;
+
+  /* code */
+  --md-code-fg-color:             #efefef;
+  --md-code-bg-color:             #0d2035;
+
+  /* footer */
+  --md-footer-bg-color:           #000a14;
+  --md-footer-bg-color--dark:     #000508;
+  --md-footer-fg-color:           #a5a9b4;
+  --md-footer-fg-color--light:    #6b6f7a;
+  --md-footer-fg-color--lighter:  #414247;
+
+  /* admonitions — teal per VIS-003 */
+  --md-admonition-fg-color:       #efefef;
+  --md-admonition-bg-color:       rgba(57, 164, 170, 0.1);
+
+  /* borders */
+  --md-default-border-color:      #414247;
+}
+
+
+/* -----------------------------------------------------------------------------
+   3. LIGHT MODE — default scheme
+   VIS-001: Light mode toggle
+   VIS-003: Palette applied to light surfaces
+   ----------------------------------------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+
+  /* backgrounds */
+  --md-default-bg-color:          #efefef;
+  --md-default-bg-color--light:   #ffffff;
+  --md-default-bg-color--lighter: #f5f5f5;
+  --md-default-bg-color--lightest: #fafafa;
+
+  /* text */
+  --md-default-fg-color:          #010f1d;
+  --md-default-fg-color--light:   #414247;
+  --md-default-fg-color--lighter: #a5a9b4;
+  --md-default-fg-color--lightest: #d0d2d8;
+
+  /* primary — nav bar */
+  --md-primary-fg-color:          #010f1d;
+  --md-primary-fg-color--light:   #0d2035;
+  --md-primary-fg-color--dark:    #000a14;
+  --md-primary-bg-color:          #efefef;
+  --md-primary-bg-color--light:   #ffffff;
+
+  /* accent */
+  --md-accent-fg-color:           #2979FF;
+  --md-accent-fg-color--transparent: rgba(41, 121, 255, 0.1);
+  --md-accent-bg-color:           #efefef;
+
+  /* typeset */
+  --md-typeset-color:             #010f1d;
+  --md-typeset-a-color:           #2979FF;
+
+  /* code */
+  --md-code-fg-color:             #010f1d;
+  --md-code-bg-color:             #e4e6eb;
+
+  /* footer */
+  --md-footer-bg-color:           #010f1d;
+  --md-footer-bg-color--dark:     #000a14;
+  --md-footer-fg-color:           #efefef;
+  --md-footer-fg-color--light:    #a5a9b4;
+  --md-footer-fg-color--lighter:  #414247;
+
+  /* admonitions */
+  --md-admonition-fg-color:       #010f1d;
+  --md-admonition-bg-color:       rgba(57, 164, 170, 0.08);
+
+  /* borders */
+  --md-default-border-color:      #d0d2d8;
+}
+
+
+/* -----------------------------------------------------------------------------
+   4. TYPOGRAPHY — headings
+   VIS-004b: Cooper Hewitt Bold/Heavy for headings
+   ----------------------------------------------------------------------------- */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  color: #ff6700;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  border-bottom: 1px solid #414247;
+  padding-bottom: 0.3em;
+}
+
+/* navigation tab labels */
+.md-tabs__link,
+.md-nav__title,
+.md-nav__link {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-weight: 700;
+}
+
+/* site name / logo text */
+.md-header__title {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-weight: 800;
+}
+
+
+/* -----------------------------------------------------------------------------
+   5. ACCENT — brand orange on active nav items
+   VIS-003: brand orange #ff6700 as primary accent
+   ----------------------------------------------------------------------------- */
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #ff6700 !important;
+}
+
+.md-nav__link--active {
+  color: #ff6700 !important;
+}
+
+/* active indicator bar under tabs */
+.md-tabs__indicator {
+  background-color: #ff6700;
+}
+
+
+/* -----------------------------------------------------------------------------
+   6. LINKS
+   VIS-003: Electric blue #2979FF for links
+   ----------------------------------------------------------------------------- */
+
+.md-typeset a {
+  color: #2979FF;
+}
+
+.md-typeset a:hover {
+  color: #ff6700;
+  text-decoration: underline;
+}
+
+
+/* -----------------------------------------------------------------------------
+   7. CODE BLOCKS
+   VIS-004b: Hack for code/monospace
+   VIS-003: Code block background colours
+   ----------------------------------------------------------------------------- */
+
+.md-typeset code,
+.md-typeset pre,
+.md-typeset kbd {
+  font-family: "Hack", "Hack Nerd Font", monospace;
+  font-size: 0.85em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset pre {
+  background-color: #0d2035;
+  border: 1px solid #414247;
+}
+
+[data-md-color-scheme="default"] .md-typeset pre {
+  background-color: #e4e6eb;
+  border: 1px solid #d0d2d8;
+}
+
+
+/* -----------------------------------------------------------------------------
+   8. ADMONITIONS — teal accent
+   VIS-003: Teal #39A4AA for admonitions and callout blocks
+   ----------------------------------------------------------------------------- */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-left-color: #39A4AA;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: rgba(57, 164, 170, 0.12);
+}
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: #39A4AA;
+}
+
+
+/* -----------------------------------------------------------------------------
+   9. HEADER
+   VIS-003: Brand dark as nav background
+   ----------------------------------------------------------------------------- */
+
+.md-header {
+  background-color: #010f1d;
+  border-bottom: 1px solid #414247;
+}
+
+.md-tabs {
+  background-color: #010f1d;
+  border-bottom: 1px solid #414247;
+}
+
+
+/* -----------------------------------------------------------------------------
+   10. FOOTER
+   ----------------------------------------------------------------------------- */
+
+.md-footer {
+  background-color: #000a14;
+}
+
+.md-footer-meta {
+  background-color: #000508;
+}
+
+/* social icons — muted by default, orange on hover */
+.md-social__link svg {
+  fill: #a5a9b4;
+  transition: fill 0.2s ease;
+}
+
+.md-social__link:hover svg {
+  fill: #ff6700;
+}
+
+
+/* -----------------------------------------------------------------------------
+   11. DIAGRAM COLOURS — restricted palette
+   VIS-008: Cyan and deep blue for diagrams only, never UI text
+   ----------------------------------------------------------------------------- */
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+  stroke: #52779C;
+}
+
+/* IO-III architecture diagrams — cyan accent */
+.diagram-io .node rect {
+  stroke: #00F1FF;
+}
+
+
+/* -----------------------------------------------------------------------------
+   12. SEARCH
+   ----------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #0d2035;
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+  color: #efefef;
+}

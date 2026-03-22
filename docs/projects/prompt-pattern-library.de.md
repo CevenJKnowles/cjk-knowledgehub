@@ -1,81 +1,76 @@
 ---
-id: KH-PROJ-GOV-DE
-title: KnowledgeHub Governance
+id: KH-PROJ-PPL-DE
+title: Prompt Pattern Library
 type: page
 status: draft
-version: "0.1"
+version: "0.3"
 created: 2026-03-22
 updated: 2026-03-22
 provenance: human
 scope: [knowledgehub]
-tags: [projects, governance, methodology, content, de]
-related: [KH-013, KH-007]
+tags: [projects, prompt-pattern-library, taxonomy, content, de]
+related: [KH-013]
 ref: []
-repo: [cjk-knowledgehub, cjk-knowledgehub-governance]
+repo: [cjk-knowledgehub, prompt-pattern-library]
 ---
 
-# KnowledgeHub Governance
+# Prompt Pattern Library
 
-Eine praktische Demonstration von governed Documentation Practice als
-Methodik: die Kontroll- und Strukturintegritätsschicht, die hinter
-dieser Website steht.
+Eine kanonische Taxonomie und atomare Musterbibliothek für strukturiertes
+Prompt Engineering: Prompts, die plattformübergreifend zuverlässig,
+modular und vielseitig sind und als Ressource dokumentieren, was
+funktioniert und wo Fehler entstehen können.
 
 ---
 
 ## Was es ist
 
-Das KnowledgeHub Governance Repository ist das interne Kontrollrahmenwerk
-des KnowledgeHub-Systems. Es definiert die strukturellen Regeln,
-Namenskonventionen und Architekturentscheidungen, die Dokumentation über
-Sessions, Mitwirkende und Zeit hinweg kohärent halten.
-
-Die Governance-Schicht existiert, weil Dokumentation ohne Struktur driftet.
-Entscheidungen werden implizit getroffen, Benennung wird inkonsistent, und
-die Begründung hinter Entscheidungen geht verloren. Dieses Repository macht
-diese Begründung von Anfang an explizit und nachvollziehbar.
+Die Prompt Pattern Library ist ein Klassifikationssystem für Prompt-Muster:
+eine dreistufige Hierarchie aus Domänen, Kategorien und Unterkategorien,
+die den vollständigen Bereich atomarer Prompt-Transformations-Primitive
+abdeckt. Jedes Muster ist mit Intent, Constraints, Kompatibilitätsregeln,
+Fehlerverhalten und Bewertungskriterien in einem konsistenten YAML- und
+Markdown-Schema dokumentiert, das für langfristige Versionierung und
+querverweisbasierte Nutzung ausgelegt ist.
 
 ---
 
-## Was es enthält
+## Taxonomiestruktur
 
-**Architecture Decision Records** -- jede strukturelle Entscheidung, die
-den KnowledgeHub betrifft, wird in einem ADR vor der Implementierung
-dokumentiert. Jeder ADR erfasst Kontext, Entscheidung, Begründung,
-Konsequenzen und Review-Trigger.
+Die Bibliothek definiert 18 primäre Domänen, darunter Instruktion und
+Kontrolle, Kontextbereitstellung, Reasoning und Deliberation,
+Ausgabestrukturierung, Evaluierung, Verifikation, Sicherheit und Ethik,
+Fehlermuster und Meta-System-Kontrolle.
 
-**Namenskonventionssystem** -- ein einheitliches Namensgebungs- und
-YAML-Schema, das konsistent über alle Dokumente, Repositories und
-Wissensumgebungen angewendet wird. Kanonische Identität liegt im
-`id`-Feld. Dateinamen sind lesbar, aber nicht autoritativ.
+Die dreistufige Struktur -- Domäne, Kategorie, Unterkategorie -- wurde
+unabhängig von vier externen Modellen geprüft und als strukturell solide,
+umfassend und als kanonische Referenz geeignet bewertet.
 
-**Phasen-Freeze-Protokolle** -- Kontrollgates, die Scope Creep und
-strukturellen Drift zwischen Projektphasen verhindern.
-
-**Strukturelle Invarianten** -- Regeln, die definieren, was das System
-tun wird und was nicht, unabhängig davon, was zu einem bestimmten
-Zeitpunkt praktisch erscheint.
+**Taxonomie v1.0 ist gesperrt.** Stabil, kanonisch und freigegeben für
+Phase 2.
 
 ---
 
-## Warum es ein Projekt ist
+## Pattern-Schema
 
-Das Governance Repository ist ein Portfolio-Artefakt für sich. Die
-Disziplin, die erforderlich ist, um es zu pflegen -- Entscheidungen vor
-ihrer Implementierung dokumentieren, Namensstrenge in einem Multi-Repo-System
-durchsetzen, Constraints als Features behandeln -- ist dieselbe Disziplin,
-die in der KI-Systemsarbeit angewendet wird. Die Methodik ist die
-Demonstration.
+Jedes atomare Muster ist in einem konsistenten Schema dokumentiert, das
+Summary, Intent, Verwendungsbedingungen, Constraints, Kompatibilität,
+Anti-Patterns, kanonische Beispiele und Governance-Notizen umfasst. Das
+Schema unterstützt fokussiertes Authoring, vorhersagbare Navigation,
+Git-basiertes Review und statisches Publishing.
+
+---
+
+## Status
+
+Phase 1 (Taxonomie und Schema) ist abgeschlossen und gesperrt. Phase 2
+(Atomare Musterdefinition) ist die nächste aktive Phase, derzeit pausiert
+während IO-III Phase 4 aktiv ist.
 
 ---
 
 ## Links
 
-[GitHub :material-arrow-right:](https://github.com/CevenJKnowles/cjk-knowledgehub-governance)
-```
+[GitHub :material-arrow-right:](https://github.com/CevenJKnowles/prompt-pattern-library)
 
 ---
-
-File paths, `cjk-knowledgehub` repo:
-```
-docs/projects/knowledgehub-governance.md        ← English
-docs/projects/knowledgehub-governance.de.md     ← German, new file

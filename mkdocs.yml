@@ -90,6 +90,40 @@ markdown_extensions:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Home: Startseite
+            Projects: Projekte
+            Overview: Überblick
+            Experience: Erfahrung
+            Method: Methode
+            Credentials: Zertifikate
+            About: Über mich
+            Legacy: Vermächtnis
+            IO-III Architecture: IO-III Architektur
+            Prompt Pattern Library: Prompt-Musterbibliothek
+            KnowledgeHub Governance: KnowledgeHub Governance
+            Agentic Applications: Agentische Anwendungen
+            Simpleshow GmbH: Simpleshow GmbH
+            Interdisciplinary Design: Interdisziplinäres Design
+            LUDWIG Bar / Gallery / Venue: LUDWIG Bar / Galerie / Venue
+            How I Work: Meine Arbeitsweise
+            Architecture Decision Records: Architecture Decision Records
+            Tools and Environment: Werkzeuge und Umgebung
+            AI Engineering and Governance: KI-Engineering und Governance
+            Statistical and Mathematical Foundations: Statistische und mathematische Grundlagen
 
 extra:
   social:

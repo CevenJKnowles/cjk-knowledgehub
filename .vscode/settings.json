@@ -1,0 +1,23 @@
+{
+  "python.defaultInterpreterPath": "/home/cjk/Dev/Environments/knowledgehub-mkdocs/bin/python",
+  "editor.formatOnSave": true,
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+  },
+  "cSpell.words": [
+    "mkdocs", "mkdocstrings", "pymdownx", "superfences",
+    "admonition", "CJK", "KnowledgeHub", "knowledgehub",
+    "cevenjknowles", "cevenknowles", "Barlow", "mermaid",
+    "Behance", "Bluesky", "fontawesome", "favicon",
+    "permalink", "inlinehilite"
+  ],
+  "markdownlint.config": {
+    "MD041": false,
+    "MD013": false,
+    "MD007": { "indent": 4 }
+  },
+  "files.exclude": {
+    "**/site": true,
+    "**/.cache": true
+  }
+}

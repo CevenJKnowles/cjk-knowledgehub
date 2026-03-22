@@ -43,10 +43,9 @@ nav:
 
   - Projects:
       - Overview: projects/index.md
-      - IO-III Architecture: projects/io-iii-architecture.md
+      - 10³ Architecture: projects/io-iii-architecture.md
       - Prompt Pattern Library: projects/prompt-pattern-library.md
       - KnowledgeHub Governance: projects/knowledgehub-governance.md
-      - Agentic Applications: projects/agentic-applications.md
 
   - Experience:
       - Overview: experience/index.md
@@ -112,10 +111,9 @@ plugins:
             Credentials: Zertifikate
             About: Über mich
             Legacy: Vermächtnis
-            IO-III Architecture: IO-III Architektur
+            10³ Architecture: 10³ Architecture
             Prompt Pattern Library: Prompt-Musterbibliothek
             KnowledgeHub Governance: KnowledgeHub Governance
-            Agentic Applications: Agentische Anwendungen
             Simpleshow GmbH: Simpleshow GmbH
             Interdisciplinary Design: Interdisziplinäres Design
             LUDWIG Bar / Gallery / Venue: LUDWIG Bar / Galerie / Venue
@@ -145,3 +143,5 @@ extra_css:
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+---

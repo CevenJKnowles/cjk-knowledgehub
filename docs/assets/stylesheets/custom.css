@@ -299,7 +299,22 @@
 
 
 /* -----------------------------------------------------------------------------
-   10. FOOTER
+   10. BACKGROUND OVERRIDE
+   Material slate scheme overrides --md-default-bg-color on rendered elements;
+   apply directly to force the true background colour.
+   ----------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-content,
+[data-md-color-scheme="slate"] .md-sidebar,
+[data-md-color-scheme="slate"] .md-sidebar__scrollwrap {
+  background-color: #010f1d;
+}
+
+
+/* -----------------------------------------------------------------------------
+   11. FOOTER
    ----------------------------------------------------------------------------- */
 
 .md-footer {
@@ -322,7 +337,7 @@
 
 
 /* -----------------------------------------------------------------------------
-   11. DIAGRAM COLOURS — restricted palette
+   12. DIAGRAM COLOURS — restricted palette
    VIS-008: Cyan and deep blue for diagrams only, never UI text
    ----------------------------------------------------------------------------- */
 
@@ -340,7 +355,7 @@
 
 
 /* -----------------------------------------------------------------------------
-   12. SEARCH
+   13. SEARCH
    ----------------------------------------------------------------------------- */
 
 [data-md-color-scheme="slate"] .md-search__form {

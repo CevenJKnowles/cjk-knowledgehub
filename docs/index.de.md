@@ -1,85 +1,14 @@
 ---
-id: KH-HOME-DE
-title: Startseite
-type: page
-status: active
-version: "1.0"
-created: 2026-03-22
-updated: 2026-03-22
-provenance: human
-scope: [knowledgehub]
-tags: [home, landing, content, de]
-related: [KH-013, KH-015]
-ref: []
-repo: [cjk-knowledgehub]
+title: Home
+description: Systeme, Workflows und gesteuerte KI-Infrastruktur, die auch bei veränderten Bedingungen kohärent bleiben.
 ---
 
-# Ceven Jupiter Knowles
+Komplexe Arbeit scheitert selten an Ehrgeiz. Sie scheitert, wenn die Struktur den sich verändernden Bedingungen nicht standhält.
 
-**KI-Systemdesign | Governed LLM Infrastructure | Workflow-Architektur**
+Dieser KnowledgeHub dokumentiert eine langjährige Praxis, die genau das Gegenteil anstrebt: Strukturen zu entwerfen, die unter realen Bedingungen kohärent bleiben. In den Bereichen Rundfunk, Bildung, Druck, Systemdesign und KI-Infrastruktur ist die zugrunde liegende Frage konstant geblieben: Was ermöglicht es einem komplexen System, zusammenzuhalten, wenn Anforderungen sich weiterentwickeln, Constraints enger werden und Kontexte sich verschieben?
 
-Die Arbeitsphilosophie ist älter als das Fachgebiet: Anforderungen und
-Rahmenbedingungen werden definiert und eingefroren, bevor mit dem Aufbau
-begonnen wird. Entscheidungen sind explizit, nachvollziehbar, und behandeln
-Constraints als bewusste strukturelle Merkmale statt als Probleme, die es
-zu umgehen gilt.
+Die Methode ist konsistent. Der Kontext, in dem sie heute angewendet wird, ist es nicht.
 
-Denselben Ansatz bringe ich in das KI-Systemdesign ein: governed Pipelines,
-deterministisches Routing, nachvollziehbare Entscheidungspfade und
-Infrastruktur, die nach der Inbetriebnahme gelesen, repliziert und
-nachvollzogen werden kann.
+Diese Methode findet heute Anwendung in der KI-Systemarchitektur, in gesteuerten Workflows, Dokumentationsrahmen und reproduzierbarer Infrastruktur. Die Probleme, die diese Domäne stellt, sind nicht neu in ihrer Art -- es sind Komplexität, Einschränkung und Wandel auf einer anderen Maßstabsebene und in einem anderen Tempo. Was sie handhabbar macht, ist dasselbe, was komplexe Systeme immer handhabbar gemacht hat: Strukturen, die unter Druck ihre Form behalten, Entscheidungen, die sichtbar bleiben, wenn das System sich weiterentwickelt, und Ausführungspfade, die geprüft, reproduziert und angepasst werden können, ohne von vorn zu beginnen. Die aktuelle Arbeit konzentriert sich auf deterministische Steuerung, architektonische Nachvollziehbarkeit und begrenzte Ausführung -- Eigenschaften, die es KI-Infrastruktur ermöglichen, beim Skalieren lesbar und unter den Bedingungen, die der Produktionsbetrieb tatsächlich auferlegt, kohärent zu bleiben.
 
-Standort: Berlin. Bevorzugt remote.
-
----
-
-<div class="grid cards" markdown>
-
-- :material-folder-open: **Projekte**
-
-    Aktuelle und abgeschlossene Arbeiten in KI-Architektur, Governance
-    und Tooling.
-
-    [Projekte ansehen :material-arrow-right:](projects/index.md)
-
-- :material-briefcase-outline: **Erfahrung**
-
-    Beruflicher Werdegang in KI-Projektmanagement, interdisziplinärem
-    Design und Kulturproduktion.
-
-    [Erfahrung ansehen :material-arrow-right:](experience/index.md)
-
-- :material-compass-outline: **Methode**
-
-    Wie ich arbeite, wie ich denke und welche Werkzeuge und Entscheidungen
-    meine Praxis prägen.
-
-    [Methode ansehen :material-arrow-right:](method/index.md)
-
-- :material-certificate-outline: **Zertifikate**
-
-    25 Zertifizierungen in KI-Engineering, Governance, Statistik und
-    den Grundlagen des maschinellen Lernens.
-
-    [Zertifikate ansehen :material-arrow-right:](credentials/index.md)
-
-- :material-account-outline: **Über mich**
-
-    Hintergrund, Positionierung und Kontaktmöglichkeiten.
-
-    [Über mich :material-arrow-right:](about/index.md)
-
-- :material-archive-outline: **Vermächtnis**
-
-    26 Jahre interdisziplinäre Praxis in Mediendesign, Branding und
-    Kulturproduktion.
-
-    [Vermächtnis ansehen :material-arrow-right:](legacy/index.md)
-
-</div>
-
----
-
-[GitHub](https://github.com/CevenJKnowles) ·
-[LinkedIn](https://www.linkedin.com/in/cevenknowles/) ·
-[Bluesky](https://bsky.app/profile/cevenknowles.bsky.social)
+Dies ist keine Sammlung von Disziplinen. Es ist eine öffentliche Architektur der Praxis.

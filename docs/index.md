@@ -1,83 +1,14 @@
 ---
-id: KH-HOME
 title: Home
-type: page
-status: active
-version: "1.0"
-created: 2026-03-20
-updated: 2026-03-22
-provenance: human
-scope: [knowledgehub]
-tags: [home, landing, content]
-related: [KH-013, KH-015]
-ref: []
-repo: [cjk-knowledgehub]
----
+description: Systems, workflows, and governed AI infrastructure built to remain coherent as conditions change.
 ---
 
-# Ceven Jupiter Knowles
+Complex work rarely fails because of ambition. It fails when the structure cannot hold as conditions change.
 
-**AI Systems Design | Governed LLM Infrastructure | Workflow Architecture**
+This KnowledgeHub documents a long-running practice built around the opposite goal: designing structures that remain coherent under real-world pressure. Across broadcasting, education, print, systems design, and AI infrastructure, the underlying question has remained consistent: what allows a complex thing to hold together as requirements evolve, constraints tighten, and contexts shift?
 
-The philosophy is older than the domain: requirements and constraints are
-defined and frozen before building begins. Decisions are explicit, traceable,
-and treat constraints as intentional structural features rather than problems
-to route around.
+The method is consistent. The context it now operates in is not.
 
-That same approach is what I bring to AI systems design: governed pipelines,
-deterministic routing, auditable decision paths, and infrastructure that can
-be read, replicated, and reasoned about after it ships.
+Today, that method is applied to AI systems architecture, governed workflows, documentation frameworks, and reproducible infrastructure. The problems this domain presents are not new in kind -- they are complexity, constraint, and change at a different scale and speed. What makes them tractable is what has always made complex systems tractable: structure that holds its shape under pressure, decisions that remain visible as the system evolves, and execution paths that can be audited, reproduced, and adapted without starting over. The current work focuses on deterministic control, architectural traceability, and bounded execution -- properties that allow AI infrastructure to remain legible as it scales and coherent under the conditions that production actually imposes.
 
-Based in Berlin. Remote-first.
-
----
-
-<div class="grid cards" markdown>
-
-- :material-folder-open: **Projects**
-
-    Active and completed work in AI architecture, governance, and tooling.
-
-    [View projects :material-arrow-right:](projects/index.md)
-
-- :material-briefcase-outline: **Experience**
-
-    Professional history across AI project management, interdisciplinary
-    design, and cultural production.
-
-    [View experience :material-arrow-right:](experience/index.md)
-
-- :material-compass-outline: **Method**
-
-    How I work, how I think, and the tools and decisions that shape my
-    practice.
-
-    [View method :material-arrow-right:](method/index.md)
-
-- :material-certificate-outline: **Credentials**
-
-    25 certifications across AI engineering, governance, statistics,
-    and machine learning foundations.
-
-    [View credentials :material-arrow-right:](credentials/index.md)
-
-- :material-account-outline: **About**
-
-    Background, positioning, and how to get in touch.
-
-    [About me :material-arrow-right:](about/index.md)
-
-- :material-archive-outline: **Legacy**
-
-    26 years of interdisciplinary practice across media design,
-    branding, and cultural production.
-
-    [View legacy :material-arrow-right:](legacy/index.md)
-
-</div>
-
----
-
-[GitHub](https://github.com/CevenJKnowles) ·
-[LinkedIn](https://www.linkedin.com/in/cevenknowles/) ·
-[Bluesky](https://bsky.app/profile/cevenknowles.bsky.social)
+This is not a collection of disciplines. It is a public architecture of practice.

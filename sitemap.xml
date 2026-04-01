@@ -22,20 +22,6 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/"/>
     </url>
     <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/credentials/ai-engineering-governance/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/credentials/ai-engineering-governance/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/ai-engineering-governance/"/>
-    </url>
-    <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/credentials/statistical-mathematical/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/credentials/statistical-mathematical/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/statistical-mathematical/"/>
-    </url>
-    <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/experience/</loc>
         <lastmod>2026-04-01</lastmod>
         <changefreq>daily</changefreq>
@@ -92,13 +78,6 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/method/how-i-work/"/>
     </url>
     <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/method/index-de/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/method/index-de/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/method/index-de/"/>
-    </url>
-    <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/method/tools-and-environment/</loc>
         <lastmod>2026-04-01</lastmod>
         <changefreq>daily</changefreq>
@@ -111,13 +90,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/projects/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/"/>
-    </url>
-    <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/projects/agentic-applications/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/projects/agentic-applications/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/agentic-applications/"/>
     </url>
     <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/projects/io-iii-architecture/</loc>
@@ -160,20 +132,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/credentials/"/>
-    </url>
-    <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/ai-engineering-governance/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/ai-engineering-governance/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/credentials/ai-engineering-governance/"/>
-    </url>
-    <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/statistical-mathematical/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/credentials/statistical-mathematical/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/credentials/statistical-mathematical/"/>
     </url>
     <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/experience/</loc>
@@ -232,13 +190,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/method/how-i-work/"/>
     </url>
     <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/method/index-de/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/method/index-de/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/method/index-de/"/>
-    </url>
-    <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/method/tools-and-environment/</loc>
         <lastmod>2026-04-01</lastmod>
         <changefreq>daily</changefreq>
@@ -251,13 +202,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/projects/"/>
-    </url>
-    <url>
-        <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/agentic-applications/</loc>
-        <lastmod>2026-04-01</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/agentic-applications/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://cevenjknowles.github.io/cjk-knowledgehub/projects/agentic-applications/"/>
     </url>
     <url>
         <loc>https://cevenjknowles.github.io/cjk-knowledgehub/de/projects/io-iii-architecture/</loc>

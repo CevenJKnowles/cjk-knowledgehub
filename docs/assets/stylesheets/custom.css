@@ -6,43 +6,88 @@
 
 
 /* -----------------------------------------------------------------------------
-   1. COOPER HEWITT — @font-face declarations (self-hosted)
-   Font files must be present at docs/assets/fonts/cooperhewitt/
-   Download from: https://github.com/cooperhewitt/cooperhewitt-typeface
+   1. LEXEND EXA — @font-face declarations (self-hosted)
+   Font files must be present at docs/assets/fonts/Lexend_Exa/
+   Source: @fontsource/lexend-exa npm package
    ----------------------------------------------------------------------------- */
 
 @font-face {
-  font-family: "Cooper Hewitt";
-  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-400-normal.woff2") format("woff2"),
-       url("../fonts/cooperhewitt/cooper-hewitt-latin-400-normal.woff") format("woff");
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Thin.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Light.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Regular.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Cooper Hewitt";
-  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-500-normal.woff2") format("woff2"),
-       url("../fonts/cooperhewitt/cooper-hewitt-latin-500-normal.woff") format("woff");
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Medium.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Cooper Hewitt";
-  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-700-normal.woff2") format("woff2"),
-       url("../fonts/cooperhewitt/cooper-hewitt-latin-700-normal.woff") format("woff");
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Bold.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Cooper Hewitt";
-  src: url("../fonts/cooperhewitt/cooper-hewitt-latin-800-normal.woff2") format("woff2"),
-       url("../fonts/cooperhewitt/cooper-hewitt-latin-800-normal.woff") format("woff");
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff") format("woff");
   font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/Lexend_Exa/LexendExa-Black.woff2") format("woff2"),
+       url("../fonts/Lexend_Exa/LexendExa-Black.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -162,7 +207,7 @@
 
 /* -----------------------------------------------------------------------------
    4. TYPOGRAPHY — headings
-   VIS-004b: Cooper Hewitt Bold/Heavy for headings
+   VIS-004b: Lexend Exa Bold/Heavy for headings
    ----------------------------------------------------------------------------- */
 
 .md-typeset h1,
@@ -171,7 +216,7 @@
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-  font-family: "Cooper Hewitt", sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -191,14 +236,14 @@
 .md-tabs__link,
 .md-nav__title,
 .md-nav__link {
-  font-family: "Cooper Hewitt", sans-serif;
-  font-weight: 700;
+  font-family: "Lexend Exa", sans-serif;
+  font-weight: 400;
 }
 
 /* site name / logo text */
 .md-header__title {
-  font-family: "Cooper Hewitt", sans-serif;
-  font-weight: 800;
+  font-family: "Lexend Exa", sans-serif;
+  font-weight: 400;
 }
 
 

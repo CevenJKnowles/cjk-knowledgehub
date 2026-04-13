@@ -61,8 +61,6 @@ nav:
 
   - Credentials:
       - Overview: credentials/index.md
-      - AI Engineering and Governance: credentials/ai-engineering-governance.md
-      - Statistical and Mathematical Foundations: credentials/statistical-mathematical.md
 
   - About: about/index.md
 
@@ -120,8 +118,6 @@ plugins:
             How I Work: Meine Arbeitsweise
             Architecture Decision Records: Architecture Decision Records
             Tools and Environment: Werkzeuge und Umgebung
-            AI Engineering and Governance: KI-Engineering und Governance
-            Statistical and Mathematical Foundations: Statistische und mathematische Grundlagen
 
 extra:
   social:

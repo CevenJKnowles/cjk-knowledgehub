@@ -21,37 +21,45 @@ work in. No aspirational stack.
 
 ---
 
-## AI and LLM Infrastructure | LiteLLM · LM Studio · Ollama
+### AI and LLM Infrastructure
+LiteLLM · LM Studio · Ollama
 
-## LLM Platforms and Interfaces | ChatGPT · Claude · Claude Code · Gemini · Microsoft Copilot · GitHub Copilot
-
----
-
-## Development and Authoring | VS Code · Git · GitHub · JupyterLab · MkDocs with Material theme · Xcode
+### LLM Platforms and Interfaces
+ChatGPT · Claude · Claude Code · Gemini · Microsoft Copilot · GitHub Copilot
 
 ---
 
-## Languages | Python · Bash / Zsh · Markdown · YAML · JSON · HTML / CSS
+### Development and Authoring
+VS Code · Git · GitHub · JupyterLab · MkDocs with Material theme · Xcode
 
 ---
 
-## Statistical and Mathematical Tools | NumPy · Excel
+### Languages
+Python · Bash / Zsh · Markdown · YAML · JSON · HTML / CSS
 
 ---
 
-## Knowledge and Documentation | Zettlr · Obsidian · LaTeX / TexMaker
+### Statistical and Mathematical Tools
+NumPy · Excel
 
 ---
 
-## Web and CMS | WordPress · Drupal · MySQL · MAMP · Brevo
+### Knowledge and Documentation
+Zettlr · Obsidian · LaTeX / TexMaker
 
 ---
 
-## UI/UX and Prototyping | Figma · Canva · Adobe XD
+### Web and CMS
+WordPress · Drupal · MySQL · MAMP · Brevo
 
 ---
 
-## Operating Environment
+### UI/UX and Prototyping
+Figma · Canva · Adobe XD
+
+---
+
+### Operating Environment
 
 Arch Linux (Manjaro) -- primary, Wayland.
 
@@ -59,24 +67,30 @@ Also comfortable on macOS and Windows.
 
 ---
 
-## Administration and Productivity | Google Workspace · Nextcloud · LibreOffice · Microsoft Office Suite · Lano · WorkingHours · Kate · Krusader · Korganiser
+### Administration and Productivity
+Google Workspace · Nextcloud · LibreOffice · Microsoft Office Suite · Lano · WorkingHours · Kate · Krusader · Korganiser
 
 ---
 
-## Video, Livestream and Broadcasting | DaVinci Resolve · Final Cut Pro · Adobe Premiere · Adobe After Effects · OBS Studio · Handbrake · FFMPEG
+### Video, Livestream and Broadcasting
+DaVinci Resolve · Final Cut Pro · Adobe Premiere · Adobe After Effects · OBS Studio · Handbrake · FFMPEG
 
 ---
 
-## Audio Production | Ableton Live · Logic Pro · Adobe Audition · Audacity
+### Audio Production
+Ableton Live · Logic Pro · Adobe Audition · Audacity
 
 ---
 
-## Visual Design and Print | Adobe Photoshop / Illustrator / InDesign / Lightroom / Acrobat · Affinity Photo 2 / Designer 2 / Publisher 2
+### Visual Design and Print
+Adobe Photoshop / Illustrator / InDesign / Lightroom / Acrobat · Affinity Photo 2 / Designer 2 / Publisher 2
 
 ---
 
-## Physical and Production Skills | Camera operation and direction · Photography · Lighting design · Live audio engineering · Spatial and set design · Event organisation and logistics · Public speaking and client presentation · Creative direction · Storyboarding · Concept writing
+### Physical and Production Skills
+Camera operation and direction · Photography · Lighting design · Live audio engineering · Spatial and set design · Event organisation and logistics · Public speaking and client presentation · Creative direction · Storyboarding · Concept writing
 
 ---
 
-## Teaching and Lecturing | Livestreaming technology · History of livestreaming · Women of internet art · Post-internet art · Adobe After Effects
+### Teaching and Lecturing
+Livestreaming technology · History of livestreaming · Women of internet art · Post-internet art · Adobe After Effects

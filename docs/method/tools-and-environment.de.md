@@ -21,37 +21,45 @@ Umgebungen, in denen ich tatsächlich arbeite. Kein Wunschzettel.
 
 ---
 
-## KI- und LLM-Infrastruktur | LiteLLM · LM Studio · Ollama
+### KI- und LLM-Infrastruktur
+LiteLLM · LM Studio · Ollama
 
-## LLM-Plattformen und Schnittstellen | ChatGPT · Claude · Claude Code · Gemini · Microsoft Copilot · GitHub Copilot
-
----
-
-## Entwicklung und Authoring | VS Code · Git · GitHub · JupyterLab · MkDocs with Material theme · Xcode
+### LLM-Plattformen und Schnittstellen
+ChatGPT · Claude · Claude Code · Gemini · Microsoft Copilot · GitHub Copilot
 
 ---
 
-## Sprachen | Python · Bash / Zsh · Markdown · YAML · JSON · HTML / CSS
+### Entwicklung und Authoring
+VS Code · Git · GitHub · JupyterLab · MkDocs with Material theme · Xcode
 
 ---
 
-## Statistische und mathematische Werkzeuge | NumPy · Excel
+### Sprachen
+Python · Bash / Zsh · Markdown · YAML · JSON · HTML / CSS
 
 ---
 
-## Wissen und Dokumentation | Zettlr · Obsidian · LaTeX / TexMaker
+### Statistische und mathematische Werkzeuge
+NumPy · Excel
 
 ---
 
-## Web und CMS | WordPress · Drupal · MySQL · MAMP · Brevo
+### Wissen und Dokumentation
+Zettlr · Obsidian · LaTeX / TexMaker
 
 ---
 
-## UI/UX und Prototyping | Figma · Canva · Adobe XD
+### Web und CMS
+WordPress · Drupal · MySQL · MAMP · Brevo
 
 ---
 
-## Arbeitsumgebung
+### UI/UX und Prototyping
+Figma · Canva · Adobe XD
+
+---
+
+### Arbeitsumgebung
 
 Arch Linux (Manjaro) -- primäres System, Wayland.
 
@@ -59,24 +67,30 @@ Auch vertraut mit macOS und Windows.
 
 ---
 
-## Administration und Produktivität | Google Workspace · Nextcloud · LibreOffice · Microsoft Office Suite · Lano · WorkingHours · Kate · Krusader · Korganiser
+### Administration und Produktivität
+Google Workspace · Nextcloud · LibreOffice · Microsoft Office Suite · Lano · WorkingHours · Kate · Krusader · Korganiser
 
 ---
 
-## Video, Livestream und Broadcasting | DaVinci Resolve · Final Cut Pro · Adobe Premiere · Adobe After Effects · OBS Studio · Handbrake · FFMPEG
+### Video, Livestream und Broadcasting
+DaVinci Resolve · Final Cut Pro · Adobe Premiere · Adobe After Effects · OBS Studio · Handbrake · FFMPEG
 
 ---
 
-## Audioproduktion | Ableton Live · Logic Pro · Adobe Audition · Audacity
+### Audioproduktion
+Ableton Live · Logic Pro · Adobe Audition · Audacity
 
 ---
 
-## Visuelles Design und Print | Adobe Photoshop / Illustrator / InDesign / Lightroom / Acrobat · Affinity Photo 2 / Designer 2 / Publisher 2
+### Visuelles Design und Print
+Adobe Photoshop / Illustrator / InDesign / Lightroom / Acrobat · Affinity Photo 2 / Designer 2 / Publisher 2
 
 ---
 
-## Physische und Produktionsfähigkeiten | Kameraführung und -regie · Fotografie · Lichtdesign · Live-Tontechnik · Raum- und Bühnengestaltung · Veranstaltungsorganisation und Logistik · Öffentliches Auftreten und Kundenpräsentationen · Creative Direction · Storyboarding · Konzeptentwicklung
+### Physische und Produktionsfähigkeiten
+Kameraführung und -regie · Fotografie · Lichtdesign · Live-Tontechnik · Raum- und Bühnengestaltung · Veranstaltungsorganisation und Logistik · Öffentliches Auftreten und Kundenpräsentationen · Creative Direction · Storyboarding · Konzeptentwicklung
 
 ---
 
-## Lehre und Vorträge | Livestreaming-Technologie · Geschichte des Livestreamings · Frauen der Internetkunst · Post-Internet-Kunst · Adobe After Effects
+### Lehre und Vorträge
+Livestreaming-Technologie · Geschichte des Livestreamings · Frauen der Internetkunst · Post-Internet-Kunst · Adobe After Effects

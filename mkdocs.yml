@@ -11,6 +11,7 @@ repo_name: CevenJKnowles/cjk-knowledgehub
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/images/logo-512.png
   favicon: assets/images/logo-32.png
@@ -49,9 +50,6 @@ nav:
 
   - Experience:
       - Overview: experience/index.md
-      - Simpleshow GmbH: experience/simpleshow.md
-      - Interdisciplinary Design: experience/interdisciplinary-design.md
-      - LUDWIG Bar / Gallery / Venue: experience/ludwig.md
 
   - Method:
       - Overview: method/index.md
@@ -84,6 +82,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -112,27 +113,28 @@ plugins:
             10³ Architecture: 10³ Architecture
             Prompt Pattern Library: Prompt-Musterbibliothek
             KnowledgeHub Governance: KnowledgeHub Governance
-            Simpleshow GmbH: Simpleshow GmbH
-            Interdisciplinary Design: Interdisziplinäres Design
-            LUDWIG Bar / Gallery / Venue: LUDWIG Bar / Galerie / Venue
             How I Work: Meine Arbeitsweise
             Architecture Decision Records: Architecture Decision Records
             Tools and Environment: Werkzeuge und Umgebung
 
 extra:
   social:
-    - icon: fontawesome/brands/github
+    - icon: simple/github
       link: https://github.com/CevenJKnowles
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/cevenknowles/
     - icon: simple/bluesky
       link: https://bsky.app/profile/cevenknowles.bsky.social
-    - icon: fontawesome/brands/behance
-      link: https://www.behance.net/cevenknowles
-    - icon: fontawesome/brands/instagram
+    - icon: simple/instagram
       link: https://www.instagram.com/cevenknowles
-    - icon: fontawesome/brands/stack-overflow
+    - icon: simple/behance
+      link: https://www.behance.net/cevenknowles
+    - icon: simple/stackoverflow
       link: https://stackoverflow.com/users/31796358/ceven-jupiter-knowles
+    - icon: simple/youtube
+      link: https://www.youtube.com/channel/UCf_g9XnbuZ2YTjDrpyOj5OQ
+    - icon: simple/substack
+      link: https://substack.com/@cevenjupiterknowles
 
 extra_css:
   - assets/stylesheets/custom.css

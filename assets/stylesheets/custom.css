@@ -4,7 +4,6 @@
    Last updated: 2026-03-20
    ============================================================================= */
 
-
 /* -----------------------------------------------------------------------------
    1. LEXEND EXA — @font-face declarations (self-hosted)
    Font files must be present at docs/assets/fonts/Lexend_Exa/
@@ -13,8 +12,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Thin.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Thin.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Thin.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -22,8 +22,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -31,8 +32,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Light.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Light.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Light.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -40,8 +42,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Regular.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Regular.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Regular.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -49,8 +52,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Medium.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Medium.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Medium.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -58,8 +62,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -67,8 +72,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Bold.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Bold.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Bold.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -76,8 +82,9 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -85,13 +92,13 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/Lexend_Exa/LexendExa-Black.woff2") format("woff2"),
-       url("../fonts/Lexend_Exa/LexendExa-Black.woff") format("woff");
+  src:
+    url("../fonts/Lexend_Exa/LexendExa-Black.woff2") format("woff2"),
+    url("../fonts/Lexend_Exa/LexendExa-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
-
 
 /* -----------------------------------------------------------------------------
    2. DARK MODE — slate scheme (default)
@@ -100,54 +107,52 @@
    ----------------------------------------------------------------------------- */
 
 [data-md-color-scheme="slate"] {
-
   /* backgrounds */
-  --md-default-bg-color:          #010f1d;
-  --md-default-bg-color--light:   #0d2035;
+  --md-default-bg-color: #010f1d;
+  --md-default-bg-color--light: #0d2035;
   --md-default-bg-color--lighter: #152840;
   --md-default-bg-color--lightest: #1e3450;
 
   /* text */
-  --md-default-fg-color:          #efefef;
-  --md-default-fg-color--light:   #a5a9b4;
+  --md-default-fg-color: #efefef;
+  --md-default-fg-color--light: #a5a9b4;
   --md-default-fg-color--lighter: #6b6f7a;
   --md-default-fg-color--lightest: #414247;
 
   /* primary — nav bar */
-  --md-primary-fg-color:          #010f1d;
-  --md-primary-fg-color--light:   #0d2035;
-  --md-primary-fg-color--dark:    #000a14;
-  --md-primary-bg-color:          #efefef;
-  --md-primary-bg-color--light:   #a5a9b4;
+  --md-primary-fg-color: #010f1d;
+  --md-primary-fg-color--light: #0d2035;
+  --md-primary-fg-color--dark: #000a14;
+  --md-primary-bg-color: #efefef;
+  --md-primary-bg-color--light: #a5a9b4;
 
   /* accent — interactive elements */
-  --md-accent-fg-color:           #2979FF;
+  --md-accent-fg-color: #2979ff;
   --md-accent-fg-color--transparent: rgba(41, 121, 255, 0.1);
-  --md-accent-bg-color:           #010f1d;
+  --md-accent-bg-color: #010f1d;
 
   /* typeset */
-  --md-typeset-color:             #efefef;
-  --md-typeset-a-color:           #2979FF;
+  --md-typeset-color: #efefef;
+  --md-typeset-a-color: #2979ff;
 
   /* code */
-  --md-code-fg-color:             #efefef;
-  --md-code-bg-color:             #0d2035;
+  --md-code-fg-color: #efefef;
+  --md-code-bg-color: #0d2035;
 
   /* footer */
-  --md-footer-bg-color:           #000a14;
-  --md-footer-bg-color--dark:     #000508;
-  --md-footer-fg-color:           #a5a9b4;
-  --md-footer-fg-color--light:    #6b6f7a;
-  --md-footer-fg-color--lighter:  #414247;
+  --md-footer-bg-color: #000a14;
+  --md-footer-bg-color--dark: #000508;
+  --md-footer-fg-color: #a5a9b4;
+  --md-footer-fg-color--light: #6b6f7a;
+  --md-footer-fg-color--lighter: #414247;
 
   /* admonitions — teal per VIS-003 */
-  --md-admonition-fg-color:       #efefef;
-  --md-admonition-bg-color:       rgba(57, 164, 170, 0.1);
+  --md-admonition-fg-color: #efefef;
+  --md-admonition-bg-color: rgba(57, 164, 170, 0.1);
 
   /* borders */
-  --md-default-border-color:      #414247;
+  --md-default-border-color: #414247;
 }
-
 
 /* -----------------------------------------------------------------------------
    3. LIGHT MODE — default scheme
@@ -156,54 +161,52 @@
    ----------------------------------------------------------------------------- */
 
 [data-md-color-scheme="default"] {
-
   /* backgrounds */
-  --md-default-bg-color:          #efefef;
-  --md-default-bg-color--light:   #ffffff;
+  --md-default-bg-color: #efefef;
+  --md-default-bg-color--light: #ffffff;
   --md-default-bg-color--lighter: #f5f5f5;
   --md-default-bg-color--lightest: #fafafa;
 
   /* text */
-  --md-default-fg-color:          #010f1d;
-  --md-default-fg-color--light:   #414247;
+  --md-default-fg-color: #010f1d;
+  --md-default-fg-color--light: #414247;
   --md-default-fg-color--lighter: #a5a9b4;
   --md-default-fg-color--lightest: #d0d2d8;
 
   /* primary — nav bar */
-  --md-primary-fg-color:          #010f1d;
-  --md-primary-fg-color--light:   #0d2035;
-  --md-primary-fg-color--dark:    #000a14;
-  --md-primary-bg-color:          #efefef;
-  --md-primary-bg-color--light:   #ffffff;
+  --md-primary-fg-color: #010f1d;
+  --md-primary-fg-color--light: #0d2035;
+  --md-primary-fg-color--dark: #000a14;
+  --md-primary-bg-color: #efefef;
+  --md-primary-bg-color--light: #ffffff;
 
   /* accent */
-  --md-accent-fg-color:           #2979FF;
+  --md-accent-fg-color: #2979ff;
   --md-accent-fg-color--transparent: rgba(41, 121, 255, 0.1);
-  --md-accent-bg-color:           #efefef;
+  --md-accent-bg-color: #efefef;
 
   /* typeset */
-  --md-typeset-color:             #010f1d;
-  --md-typeset-a-color:           #2979FF;
+  --md-typeset-color: #010f1d;
+  --md-typeset-a-color: #2979ff;
 
   /* code */
-  --md-code-fg-color:             #010f1d;
-  --md-code-bg-color:             #e4e6eb;
+  --md-code-fg-color: #010f1d;
+  --md-code-bg-color: #e4e6eb;
 
   /* footer */
-  --md-footer-bg-color:           #010f1d;
-  --md-footer-bg-color--dark:     #000a14;
-  --md-footer-fg-color:           #efefef;
-  --md-footer-fg-color--light:    #a5a9b4;
-  --md-footer-fg-color--lighter:  #414247;
+  --md-footer-bg-color: #010f1d;
+  --md-footer-bg-color--dark: #000a14;
+  --md-footer-fg-color: #efefef;
+  --md-footer-fg-color--light: #a5a9b4;
+  --md-footer-fg-color--lighter: #414247;
 
   /* admonitions */
-  --md-admonition-fg-color:       #010f1d;
-  --md-admonition-bg-color:       rgba(57, 164, 170, 0.08);
+  --md-admonition-fg-color: #010f1d;
+  --md-admonition-bg-color: rgba(57, 164, 170, 0.08);
 
   /* borders */
-  --md-default-border-color:      #d0d2d8;
+  --md-default-border-color: #d0d2d8;
 }
-
 
 /* -----------------------------------------------------------------------------
    4. TYPOGRAPHY — headings
@@ -246,7 +249,6 @@
   font-weight: 400;
 }
 
-
 /* -----------------------------------------------------------------------------
    5. ACCENT — brand orange on active nav items
    VIS-003: brand orange #ff6700 as primary accent
@@ -266,21 +268,19 @@
   background-color: #ff6700;
 }
 
-
 /* -----------------------------------------------------------------------------
    6. LINKS
    VIS-003: Electric blue #2979FF for links
    ----------------------------------------------------------------------------- */
 
 .md-typeset a {
-  color: #2979FF;
+  color: #2979ff;
 }
 
 .md-typeset a:hover {
   color: #ff6700;
   text-decoration: underline;
 }
-
 
 /* -----------------------------------------------------------------------------
    7. CODE BLOCKS
@@ -305,7 +305,6 @@
   border: 1px solid #d0d2d8;
 }
 
-
 /* -----------------------------------------------------------------------------
    8. ADMONITIONS — teal accent
    VIS-003: Teal #39A4AA for admonitions and callout blocks
@@ -313,7 +312,7 @@
 
 .md-typeset .admonition,
 .md-typeset details {
-  border-left-color: #39A4AA;
+  border-left-color: #39a4aa;
 }
 
 .md-typeset .admonition-title,
@@ -323,9 +322,8 @@
 
 .md-typeset .admonition-title::before,
 .md-typeset summary::before {
-  background-color: #39A4AA;
+  background-color: #39a4aa;
 }
-
 
 /* -----------------------------------------------------------------------------
    9. HEADER
@@ -342,7 +340,6 @@
   border-bottom: 1px solid #414247;
 }
 
-
 /* -----------------------------------------------------------------------------
    10. BACKGROUND OVERRIDE
    Material slate scheme overrides --md-default-bg-color on rendered elements;
@@ -356,7 +353,6 @@
 [data-md-color-scheme="slate"] .md-sidebar__scrollwrap {
   background-color: #010f1d;
 }
-
 
 /* -----------------------------------------------------------------------------
    11. FOOTER
@@ -380,7 +376,6 @@
   fill: #ff6700;
 }
 
-
 /* -----------------------------------------------------------------------------
    12. DIAGRAM COLOURS — restricted palette
    VIS-008: Cyan and deep blue for diagrams only, never UI text
@@ -390,14 +385,13 @@
 .mermaid .node circle,
 .mermaid .node ellipse,
 .mermaid .node polygon {
-  stroke: #52779C;
+  stroke: #52779c;
 }
 
 /* IO-III architecture diagrams — cyan accent */
 .diagram-io .node rect {
-  stroke: #00F1FF;
+  stroke: #00f1ff;
 }
-
 
 /* -----------------------------------------------------------------------------
    13. SEARCH
@@ -409,4 +403,116 @@
 
 [data-md-color-scheme="slate"] .md-search__input {
   color: #efefef;
+}
+
+/* =============================================================================
+   Session 11 — visual polish
+   ============================================================================= */
+
+/* Logo size */
+.md-header__button.md-logo img,
+.md-logo img {
+  height: 2.5rem;
+  width: auto;
+}
+
+/* Links — light mode */
+[data-md-color-scheme="default"] a {
+  color: #071623;
+  font-weight: bold;
+}
+
+/* Links — dark mode */
+[data-md-color-scheme="slate"] a {
+  color: #ff6700;
+  font-weight: bold;
+}
+
+/* UI icons — both modes */
+.md-header__option svg,
+.md-header__button:not(.md-logo) svg,
+.md-source__icon svg {
+  fill: #ff6700 !important;
+}
+
+/* Repo icon — force orange in light mode (currentColor override) */
+[data-md-color-scheme="default"] .md-header .md-source__icon svg {
+  fill: #ff6700 !important;
+}
+
+/* Sidebar social widget */
+.md-nav__sidebar-social {
+  padding: 0.8rem 0.6rem 1rem;
+}
+
+.md-nav__sidebar-divider {
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin: 0.8rem 0;
+}
+
+.md-nav__social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.md-nav__social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  font-weight: normal;
+}
+
+.md-nav__social-links a svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--md-default-fg-color--light);
+  transition: fill 0.2s;
+}
+
+.md-nav__social-links a:hover svg {
+  fill: #ff6700;
+}
+
+.md-nav__contact-label {
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+  word-break: break-all;
+  display: block;
+  padding: 0 0.2rem;
+  user-select: all;
+}
+
+/* Nav tabs — light mode */
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #efefef !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="default"] .md-tabs__link:hover {
+  color: #ff6700 !important;
+  opacity: 1 !important;
+}
+
+/* Nav tabs — dark mode */
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #ff6700 !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="slate"] .md-tabs__link:hover {
+  color: #efefef !important;
+  opacity: 1 !important;
+}
+
+/* Repo text — light mode visibility */
+[data-md-color-scheme="default"] .md-source__repository,
+[data-md-color-scheme="default"] .md-source__facts {
+  color: #ff6700;
 }

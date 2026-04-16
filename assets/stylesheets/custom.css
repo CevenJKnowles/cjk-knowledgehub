@@ -597,3 +597,12 @@
 .md-sidebar__scrollwrap::-webkit-scrollbar {
   display: none;
 }
+
+/* ── Footer ───────────────────────────────────────── */
+.md-footer-copyright__highlight {
+  display: none;
+}
+
+.md-footer-social .md-social__link svg {
+  fill: #ff6700;
+}

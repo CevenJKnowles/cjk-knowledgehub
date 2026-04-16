@@ -525,10 +525,10 @@
 }
 
 .md-sidebar-contact__heading {
-  font-size: 0.7rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--md-default-fg-color--light);
+  color: #080f1d;
   margin-bottom: 0.6rem;
 }
 
@@ -540,7 +540,7 @@
 
 .md-sidebar-contact__input,
 .md-sidebar-contact__textarea {
-  background: rgba(255, 255, 255, 0.05);
+  background: #ff6700;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
   color: var(--md-default-fg-color);
@@ -566,10 +566,10 @@
   background: #ff6700;
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: #080f1d;
   cursor: pointer;
   font-family: inherit;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 0.45rem 0.8rem;
   text-align: center;

@@ -2,6 +2,7 @@ site_name: CJK KnowledgeHub
 site_url: https://cevenknowles.com/
 site_description: AI Systems Design | Governed LLM Infrastructure | Workflow Architecture
 site_author: Ceven Jupiter Knowles
+copyright: "© 2026 | Ceven Jupiter Knowles"
 
 docs_dir: docs
 site_dir: site

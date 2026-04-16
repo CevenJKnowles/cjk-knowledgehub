@@ -519,17 +519,20 @@
 
 /* ── Sidebar contact form ─────────────────────────── */
 .md-sidebar-contact {
-  padding: 1rem 0.8rem 0.5rem;
-  border-top: 1px solid rgba(255, 103, 0, 0.25);
+  padding: 0.5rem 0.5rem 0.5rem;
+  border-top: 1px solid #efefef;
   margin-top: 1rem;
 }
 
 .md-sidebar-contact__heading {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #080f1d;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--md-default-fg-color--light);
   margin-bottom: 0.6rem;
+  white-space: nowrap;
 }
 
 .md-sidebar-contact__form {
@@ -540,10 +543,10 @@
 
 .md-sidebar-contact__input,
 .md-sidebar-contact__textarea {
-  background: #ff6700;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #080f1d;
+  border: 3px solid #ff6700;
   border-radius: 4px;
-  color: var(--md-default-fg-color);
+  color: #efefef;
   font-family: inherit;
   font-size: 0.75rem;
   padding: 0.4rem 0.6rem;
@@ -578,4 +581,14 @@
 
 .md-sidebar-contact__button:hover {
   background: #e05a00;
+}
+
+/* ── Hide sidebar scrollbar ───────────────────────── */
+.md-sidebar__scrollwrap {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / Edge */
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  display: none; /* Chrome / Safari */
 }

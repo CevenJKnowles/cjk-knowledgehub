@@ -516,3 +516,66 @@
 [data-md-color-scheme="default"] .md-source__facts {
   color: #ff6700;
 }
+
+/* ── Sidebar contact form ─────────────────────────── */
+.md-sidebar-contact {
+  padding: 1rem 0.8rem 0.5rem;
+  border-top: 1px solid rgba(255, 103, 0, 0.25);
+  margin-top: 1rem;
+}
+
+.md-sidebar-contact__heading {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.6rem;
+}
+
+.md-sidebar-contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.md-sidebar-contact__input,
+.md-sidebar-contact__textarea {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: var(--md-default-fg-color);
+  font-family: inherit;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.md-sidebar-contact__input:focus,
+.md-sidebar-contact__textarea:focus {
+  outline: none;
+  border-color: #ff6700;
+}
+
+.md-sidebar-contact__textarea {
+  resize: vertical;
+}
+
+.md-sidebar-contact__button {
+  background: #ff6700;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.45rem 0.8rem;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.md-sidebar-contact__button:hover {
+  background: #e05a00;
+}

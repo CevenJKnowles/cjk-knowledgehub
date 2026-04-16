@@ -535,6 +535,10 @@
   white-space: nowrap;
 }
 
+[data-md-color-scheme="slate"] .md-sidebar-contact__heading {
+  color: #ff6700;
+}
+
 .md-sidebar-contact__form {
   display: flex;
   flex-direction: column;
@@ -544,7 +548,7 @@
 .md-sidebar-contact__input,
 .md-sidebar-contact__textarea {
   background: #080f1d;
-  border: 3px solid #ff6700;
+  border: 1px solid #ff6700;
   border-radius: 4px;
   color: #efefef;
   font-family: inherit;
@@ -583,12 +587,13 @@
   background: #e05a00;
 }
 
-/* ── Hide sidebar scrollbar ───────────────────────── */
+/* ── Hide sidebar scrollbar + footer clearance ───── */
 .md-sidebar__scrollwrap {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE / Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 4rem;
 }
 
 .md-sidebar__scrollwrap::-webkit-scrollbar {
-  display: none; /* Chrome / Safari */
+  display: none;
 }
